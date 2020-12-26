@@ -3,7 +3,7 @@ from telebot import TeleBot
 from telebot import types
 from scarper import *
 
-bot = TeleBot(token="1465907655:AAHbCRtgyykGpkuHhq3aAfcOODdgWJ1nHLk")
+bot = TeleBot(token="Your token from the bot father")
 
 
 markup = types.ReplyKeyboardMarkup(row_width=3)
