@@ -4,7 +4,7 @@ from telebot import types
 import time
 from scarper import *
 
-bot = TeleBot(token="1465907655:AAHbCRtgyykGpkuHhq3aAfcOODdgWJ1nHLk")
+bot = TeleBot(token="")
 
 
 markup = types.ReplyKeyboardMarkup(row_width=3)
