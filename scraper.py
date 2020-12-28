@@ -27,7 +27,7 @@ def start_bot(message):
     users_name = message.from_user.username
     bot.reply_to(message,
                  f"Hi {users_name}, i am your scholarship updates bot 🐱‍🏍😎 for the taking. I help you get informed about ongoing scholarships and ooportunities around you depending on your level of study 🔍📚, jobs 🔍🏛, internships 👩‍🎤 and so much more🌟.\n\n Use /help to learn more about how i work 🤖")
-    bot.send_message(message.chat.id, f"What do you want to do today 😁", reply_markup=markup)
+    bot.send_message(message.chat.id, f"What do you want to do today 😁", reply_mark up=markup)
 
 @bot.message_handler(commands=['help'])
 def help_bot(message):
